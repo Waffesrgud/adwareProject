@@ -5,8 +5,8 @@ import javax.swing.JOptionPane;
 public class AdwareView
 {
 	/**
-	 * Makes a cute lil' pop up to display the message.
-	 * @param message The message that will be used in the popup.
+	 * Makes a cute little pop-up to display the message.
+	 * @param message The message that will be used in the pop-up.
 	 */
 	public void displayMessage(String message)
 	{
@@ -14,7 +14,7 @@ public class AdwareView
 	}
 	
 	/**
-	 * Gets the user answer and formats it!
+	 * Gets the user answer in string format!
 	 * @param question The question asked.
 	 * @return The response.
 	 */
