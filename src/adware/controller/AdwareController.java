@@ -22,11 +22,13 @@ public class AdwareController
 		//Quizzes them on what the best computer brand is, if they get it correct it ends it. 
 		//If they enter anything it adds a point for effort. If they put nothing, it doesn't ever end.
 		String answer = display.collectResponse("What computer is the best?");
+		System.out.println("The answer was: " + answer);
 		if (answer.equals(computerBrand)){
 			count = 10;
-		} else if (answer.equals("")||answer.equals(null) == false){
+		} else if (!answer.equals("") == true){
 			count++;
 		}
+		System.out.println("They're at " + count + " points~!");
 		}
 	}
 }
