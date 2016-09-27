@@ -26,4 +26,17 @@ public class AdwareView
 		
 		return response;
 	}
+	/**
+	 * Creates a popup that asks a yes/no/cancel question. :)
+	 * @param question It's the question to be asked.
+	 * @return The constant value from JOptionPane for yes/no/cancel.
+	 */
+	public int collectUserOption(String question){
+		int response = 0;
+		
+		response = JOptionPane.showConfirmDialog(null,  question);
+				
+		return response;
+	}
 }
+ 
