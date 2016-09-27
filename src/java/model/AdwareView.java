@@ -12,4 +12,18 @@ public class AdwareView
 	{
 		JOptionPane.showMessageDialog(null, message);
 	}
+	
+	/**
+	 * Gets the user answer and formats it!
+	 * @param question The question asked.
+	 * @return The response.
+	 */
+	public String collectResponse(String question)
+	{
+		String response = "";
+		
+		response = JOptionPane.showInputDialog(null, question);
+		
+		return response;
+	}
 }
