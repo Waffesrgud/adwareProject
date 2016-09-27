@@ -1,4 +1,4 @@
-package java.model;
+package adware.model;
 
 public class AdwareModel
 {

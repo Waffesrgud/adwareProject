@@ -1,7 +1,12 @@
-package java.model;
+package adware.view;
 
 import javax.swing.JOptionPane;
 
+/**
+ * Pop-up Viewer class
+ * @author Grayson C
+ * @version September 27th, 2016
+ */
 public class AdwareView
 {
 	/**
@@ -27,7 +32,7 @@ public class AdwareView
 		return response;
 	}
 	/**
-	 * Creates a popup that asks a yes/no/cancel question. :)
+	 * Creates a pop-up that asks a yes/no/cancel question. :)
 	 * @param question It's the question to be asked.
 	 * @return The constant value from JOptionPane for yes/no/cancel.
 	 */
